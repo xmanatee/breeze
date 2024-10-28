@@ -27,7 +27,6 @@ linter:
     - await_only_futures
     - unawaited_futures
     - sort_constructors_first
-    - unawaited_futures
 
 analyzer:
   errors:

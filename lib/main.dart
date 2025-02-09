@@ -9,7 +9,7 @@ import 'package:breeze/services/storage.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: 'api_keys.env');
+  await dotenv.load(fileName: '.env');
   await BreezeStorage().init();
   runApp(const BreezeBrowserApp());
 }

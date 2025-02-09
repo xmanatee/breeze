@@ -1,3 +1,5 @@
+.env
+
 # Miscellaneous
 *.class
 *.log
@@ -43,5 +45,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-api_keys.env
